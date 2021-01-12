@@ -1,0 +1,17 @@
+#logo {
+    height: 20%;
+    width: 40%;
+}
+
+body {
+    background-image:url(http://s1.picswalls.com/wallpapers/2015/11/21/league-of-legends-hd-wallpapers_111242969_289.jpg);
+    
+   
+}
+
+section {
+    color:rgb(211, 201, 58);
+    font-weight:bolder;
+    font: outline;
+    
+}

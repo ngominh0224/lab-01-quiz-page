@@ -46,10 +46,10 @@ quizButton.addEventListener('click', () => {
 
     }
 
-    const resultsString = correctAnswers + '?!' + ' I do not think you are cut out for this, Summoner. ';
-    const resultsString1 = ' Only ' + correctAnswers + ' correct? ' + ' Get back to training! ';
-    const resultsString2 = correctAnswers + ' correct! ' + ' Meh, you will make do. ';
-    const resultsString3 = ' You got ' + correctAnswers + ' correct! Great work Summoner, now onwards to the Rift! ';
+    const resultsString = correctAnswers + '?!' + ' I do not think you are cut out for this,' + ' ' + firstName + ' ' + lastName + ' . ';
+    const resultsString1 = ' Only ' + correctAnswers + ' correct? ' + ' Get back to training ' + firstName + ' ' + lastName + ' ! ';
+    const resultsString2 = correctAnswers + ' correct! ' + ' Meh, you will make do ' + firstName + ' ' + lastName + ' . ';
+    const resultsString3 = ' You got ' + correctAnswers + ' correct! Great work ' + firstName + ' ' + lastName + ', now onwards to the Rift! ';
 
     if (correctAnswers === 0) {
         secretDiv.textContent = resultsString;
